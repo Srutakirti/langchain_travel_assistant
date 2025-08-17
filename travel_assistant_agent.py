@@ -6,14 +6,13 @@ Features
 - Custom Weather tool (WeatherAPI.com)
 - DuckDuckGo search tool for top attractions
 - Tool-calling agent (create_tool_calling_agent + AgentExecutor)
-- Works with OpenAI chat models for summarization
 
 Setup
 1) Install deps (recommended new virtualenv):
    pip install -U langchain langchain-community langchain-openai duckduckgo-search requests python-dotenv
 
 2) Env vars:
-   export OPENAI_API_KEY="sk-..."
+   export GEMINI_API_KEY="sk-..."
    export WEATHER_API_KEY="your_weatherapi_key"
 
 (Optionally load from .env alongside this file.)
@@ -35,7 +34,7 @@ from langchain.agents import create_tool_calling_agent, AgentExecutor
 from langchain.tools import tool
 from langchain_core.prompts import ChatPromptTemplate
 
-# LLM (OpenAI)
+# LLM (Gemini)
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 
