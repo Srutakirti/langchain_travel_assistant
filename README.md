@@ -103,7 +103,7 @@ This will install all dependencies defined in `pyproject.toml` and `uv.lock`.
 ### 3. Set up API keys
 Create a `.env` file in the project root:  
 ```bash
-GOOGLE_API_KEY=your_gemini_api_key_here
+OPENAI_API_KEY=your_gemini_api_key_here
 WEATHER_API_KEY=your_weatherapi_key_here
 ```
 
