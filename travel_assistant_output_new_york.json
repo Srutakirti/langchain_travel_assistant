@@ -1,0 +1,4 @@
+{
+  "input": "Destination: new york. Please provide the weather and a list of top attractions with brief notes.",
+  "output": "Currently in New York, it's 30.6°C but feels like 32.9°C with patchy rain nearby.  Today's forecast also includes patchy rain, so pack an umbrella and a light jacket.\n\nTop attractions include Times Square, the Empire State Building, and the Statue of Liberty.  Given the weather, you might want to consider indoor options like museums or Broadway shows to avoid the rain.\n"
+}

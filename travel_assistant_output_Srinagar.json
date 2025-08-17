@@ -1,0 +1,4 @@
+{
+  "input": "Destination: Srinagar. Please provide the weather and a list of top attractions with brief notes.",
+  "output": "The weather in Srinagar is currently 27.8°C with patchy rain nearby.  It feels like 29°C with 56% humidity. The forecast for the next few days shows a high chance of rain. Pack a raincoat and umbrella!\n\nBecause of the rain, I recommend checking out some indoor attractions.  I'm sorry, but I couldn't find any attractions for Srinagar at this time.\n"
+}
